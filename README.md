@@ -11,5 +11,5 @@ You upload a File / Folder through your website onto your raspberry.
 
 This raspberry has just a small sd-card so you could  
 * expand the storage with an external drive  
-    ##### or   
+    #### or   
 * use the uptime checker to check if your pc / server, NAS or similar is online to copy / move your uploaded files to it.
