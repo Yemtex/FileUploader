@@ -1,0 +1,40 @@
+<html lang="de" class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <title>Upload your Stuff</title>
+    <link rel="stylesheet" type="text/css" href="css/import.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/standard.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/upload.css" media="screen" />
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <h1>File and Folder Upload</h1>
+
+    <div class="box-container">
+
+        <div class="uploadBox">
+            <form name="uploadForm" action="php/main.php" method="post" enctype="multipart/form-data">
+
+                <div class="chooseButton">
+                    <input type="file" id="chooseButton" multiple />
+                    <label for="chooseButton">CHOOSE</label>
+                </div>
+
+                <div class="uploadButton">
+                    <input type="submit" id="uploadButton">
+                    <label for="uploadButton">UPLOAD</label>
+                </div>
+            </form>
+        </div>
+
+        <div class="listBox">
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
